@@ -1,0 +1,108 @@
+/*
+* Grace Berenato
+* 20 May 2019
+* Innovative Women Final Project
+*/
+
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body attributes here */
+
+body {
+    width: 90%;
+    background-color: #e0ebeb;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-family: avenir, candara, sans-serif;
+}
+
+h1 {
+    padding: 5px;
+}
+
+header {
+        margin: 5px;
+        padding: 5px;
+        background-color: #e0ebeb;
+        font-family: apple-chancery, candara, sans-serif;
+}
+
+main { 
+    width: 47%; 
+    float: left;
+    margin: 15px;
+    padding: 5px;
+}
+
+#SideBarOne {
+    width: 21.5%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+   
+}
+
+#SideBarTwo {
+    width: 21.5%;
+    float: right;
+    margin: 3px;
+    padding: 5px;
+}
+
+#MiddleHelmetPicture { width: 475px; height: 300px;
+                        padding: 15px;
+                        margin: 10px;
+                        border-top: 1px solid gray;
+                        border-right: 1px solid gray;
+                        border-bottom: 1px solid gray;
+                        border-left: 1px solid gray;}
+
+#Vostok { float: right;
+            width: 150px; height: 225px;
+            padding: 15px;
+            margin: 10px;
+            border-top: 1px solid gray;
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;
+            border-left: 1px solid gray;}
+
+#Valentina { float: left;
+            width: 200px;
+            height: 175px;
+            margin: 10px;
+            padding: 10px;
+            border-top: 1px solid gray;
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;
+            border-left: 1px solid gray;}
+
+p { padding: 5px;
+    margin: 2px;}
+
+h2 { font-family: apple-chancery, candara, sans-serif;}
+
+h3 { padding: 10px;
+    font-family: apple-chancery, candara, sans-serif;}
+
+h4 { padding: 10px;
+    font-family: apple-chancery, candara, sans-serif;}
+
+figcaption { font-size: 14px;
+                margin: 25px;
+                float: none;}
+
+footer { clear: both; 
+            border-top: 2px solid gray;
+}
+
+ul, li {
+        list-style-position: inside;
+        padding: 5px;
+        margin: 2px;
+}
